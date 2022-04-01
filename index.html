@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Change Background Color</title>
+</head>
+
+<body class="bg-dark text-white">
+  <!-- START HERE -->
+
+  <section id="main" >
+    <div class="container" class="bg-dark text-white">
+      <div class="row">
+        <div class="col">
+          <h1 class="mt-5 mb-3 text-center display-4">Weight Converter</h1>
+          <input type="text" placeholder="Enter Pounds..." class="form-control w-50 mx-auto">
+          <div id="card-container" class="d-none">
+            <div class="card bg-primary w-50 mx-auto my-4 text-white card-body">
+              <h3>Grams</h3>
+              <p class="card-text" id="grams">0</p>
+            </div>
+            <div class="card bg-success w-50 mx-auto my-4 text-white card-body">
+              <h3>Kilograms</h3>
+              <p class="card-text" id="kg">0</p>
+            </div>
+            <div class="card bg-danger w-50 mx-auto my-4 text-white card-body">
+              <h3>Ounces</h3>
+              <p class="card-text" id="ounces">0</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
